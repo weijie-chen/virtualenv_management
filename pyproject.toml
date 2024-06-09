@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "weijie-chen"
+version = "0.1.0"
+description = ""
+authors = ["weijie-chen <weijiechen00@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"  # Updated Python version range
+ipykernel = "^6.29.4"
+numpy = "^1.26.4"
+matplotlib = "^3.9.0"
+pandas = "^2.2.2"
+scipy = "^1.13.1"
+yfinance = "^0.2.40"
+setuptools = "^70.0.0"
+pytest = "^8.2.1"
+isort = "^5.13.2"
+black = {extras = ["jupyter"], version = "^24.4.2"}
+pylint = "^3.2.2"
+pyyaml = "^6.0.1"
+nbformat = "^5.10.4"
+nbclient = "^0.10.0"
+sympy = "^1.12.1"
+texttable = "^1.7.0"
+statsmodels = "^0.14.2"
+openpyxl = "^3.1.3"
+plotly = "^5.22.0"
+pymc = "^5.15.1"
+seaborn = "^0.13.2"
+ipywidgets = "^8.1.3"
+pandas-datareader = "^0.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
