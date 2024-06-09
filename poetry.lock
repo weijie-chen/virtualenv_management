@@ -356,6 +356,17 @@ unicode = ["unicodedata2 (>=15.1.0)"]
 woff = ["zopfli (>=0.1.4)", "brotlicffi (>=0.8.0)", "brotli (>=1.0.1)"]
 
 [[package]]
+name = "fredapi"
+version = "0.5.2"
+description = "Python API for Federal Reserve Economic Data (FRED) from St. Louis Fed"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+pandas = "*"
+
+[[package]]
 name = "frozendict"
 version = "2.4.4"
 description = "A simple immutable dictionary"
@@ -1173,6 +1184,17 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7"
 six = ">=1.5"
 
 [[package]]
+name = "python-dotenv"
+version = "1.0.1"
+description = "Read key-value pairs from a .env file and set them as environment variables"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[package.extras]
+cli = ["click (>=5.0)"]
+
+[[package]]
 name = "pytz"
 version = "2024.1"
 description = "World timezone definitions, modern and historical"
@@ -1559,7 +1581,7 @@ repair = ["scipy (>=1.6.3)"]
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.10,<3.13"  # Updated Python version range
-content-hash = "c50fe316d6bf7c49bfb089d590f2c33d71646b78e7fe589340d8c423ff6ac33a"
+content-hash = "a8e6b5308ddec153f70f9149820a51379547e7dc3821fa71d61da84ba58c7d68"
 
 [metadata.files]
 appnope = []
@@ -1591,6 +1613,7 @@ executing = []
 fastjsonschema = []
 filelock = []
 fonttools = []
+fredapi = []
 frozendict = []
 h5netcdf = []
 h5py = []
@@ -1649,6 +1672,7 @@ pyparsing = []
 pytensor = []
 pytest = []
 python-dateutil = []
+python-dotenv = []
 pytz = []
 pywin32 = []
 pyyaml = []
