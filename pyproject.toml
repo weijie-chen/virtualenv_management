@@ -32,6 +32,12 @@ ipywidgets = "^8.1.3"
 pandas-datareader = "^0.10.0"
 fredapi = "^0.5.2"
 python-dotenv = "^1.0.1"
+msvc-runtime = "^14.40.33807"
+icecream = "^2.1.3"
+scikit-learn = "^1.5.1"
+arch = "^7.0.0"
+pmdarima = "^2.0.4"
+pykalman = "^0.9.7"
 
 
 [build-system]
