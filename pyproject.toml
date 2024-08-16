@@ -38,7 +38,7 @@ scikit-learn = "^1.5.1"
 arch = "^7.0.0"
 pmdarima = "^2.0.4"
 pykalman = "^0.9.7"
-
+msvc-runtime = { version = "*", markers = "sys_platform == 'win32'" }
 
 [build-system]
 requires = ["poetry-core"]
