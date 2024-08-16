@@ -39,6 +39,9 @@ arch = "^7.0.0"
 pmdarima = "^2.0.4"
 pykalman = "^0.9.7"
 
+[tool.poetry.dependencies.windows]
+msvc-runtime = "*"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
