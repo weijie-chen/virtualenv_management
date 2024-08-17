@@ -39,6 +39,8 @@ pmdarima = "^2.0.4"
 pykalman = "^0.9.7"
 msvc-runtime = {version = "*", markers = "sys_platform == 'win32'"}
 jupyter = "^1.0.0"
+bs4 = "^0.0.2"
+beautifulsoup4 = "^4.12.3"
 
 
 [build-system]
