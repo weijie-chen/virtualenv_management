@@ -41,6 +41,7 @@ msvc-runtime = {version = "*", markers = "sys_platform == 'win32'"}
 jupyter = "^1.0.0"
 bs4 = "^0.0.2"
 beautifulsoup4 = "^4.12.3"
+ruff = "^0.6.1"
 
 
 [build-system]
