@@ -42,7 +42,6 @@ jupyter = "^1.0.0"
 beautifulsoup4 = "^4.12.3"
 ruff = "^0.6.1"
 openai = "0.28.0"
-pandas-ta = "^0.3.14b0"
 
 
 [build-system]

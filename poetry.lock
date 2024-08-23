@@ -2923,23 +2923,6 @@ pandas = ">=0.23"
 requests = ">=2.19.0"
 
 [[package]]
-name = "pandas-ta"
-version = "0.3.14b"
-description = "An easy to use Python 3 Pandas Extension with 130+ Technical Analysis Indicators. Can be called from a Pandas DataFrame or standalone like TA-Lib. Correlation tested with TA-Lib."
-optional = false
-python-versions = "*"
-files = [
-    {file = "pandas_ta-0.3.14b.tar.gz", hash = "sha256:0fa35aec831d2815ea30b871688a8d20a76b288a7be2d26cc00c35cd8c09a993"},
-]
-
-[package.dependencies]
-pandas = "*"
-
-[package.extras]
-dev = ["alphaVantage-api", "matplotlib", "mplfinance", "scipy", "sklearn", "statsmodels", "stochastic", "talib", "tqdm", "vectorbt", "yfinance"]
-test = ["ta-lib"]
-
-[[package]]
 name = "pandocfilters"
 version = "1.5.1"
 description = "Utilities for writing pandoc filters in python"
@@ -4715,4 +4698,4 @@ repair = ["scipy (>=1.6.3)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10,<3.13"
-content-hash = "f1a56ef66cc114a366b91d811966e214dfbc960d8c66faf6b6f5f2c95b942157"
+content-hash = "fabcf292e19ca5d6a300ccf6cb36c0dfee3c3b4cb73ec1b61ae70fa5e3f7a13f"
